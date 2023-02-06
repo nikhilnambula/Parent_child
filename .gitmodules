@@ -1,3 +1,6 @@
 [submodule "state_management"]
 	path = state_management
 	url = https://github.com/nikhilnambula/state_management.git
+[submodule "Parent_child"]
+	path = Parent_child
+	url = https://github.com/nikhilnambula/Parent_child.git
