@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Molecule from "./Components/molecules/NavBar";
+// import SideNav from "./Components/molecules/SideNav";
+// import Icon1 from "./images/Icon1.svg";
+import {
+  Icon1,
+  Icon2,
+  // Icon3,
+  Icon4,
+  Icon6,
+  Icon7,
+  Icon9,
+  // Icon8,
+} from "./Components/Atoms/SvgIcons";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Molecule icons={[Icon9, Icon4, Icon7, Icon2, Icon1, Icon6]}></Molecule>
     </div>
   );
 }
